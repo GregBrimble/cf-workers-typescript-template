@@ -9,7 +9,7 @@
     "clean:node": "rimraf node_modules package-lock.json",
     "test:client": "CI=true lerna run --scope client test",
     "test:server": "CI=true lerna run --scope server test",
-    "test": "CI=true lerna run test",
+    "test": "CI=true lerna run test:ci",
     "lint": "prettier -c .",
     "lint:fix": "npm run lint -- --write",
     "start": "node index.js",

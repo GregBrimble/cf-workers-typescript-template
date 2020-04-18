@@ -1,9 +1,11 @@
 {
   "name": "server",
   "private": true,
+  "main": "src/index.ts",
   "scripts": {
     "clean:node": "rimraf node_modules package-lock.json",
-    "test": "jest"
+    "test": "jest --watch --coverage=false --changedSince=origin/master",
+    "test:ci": "jest --ci"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "1.0.9",

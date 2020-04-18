@@ -1,5 +1,14 @@
 # Cloudflare Workers Typescript Server & Client Template
 
+[![GitHub Actions Test](https://github.com/GregBrimble/cf-workers-typescript-template/workflows/Test/badge.svg)](https://github.com/GregBrimble/cf-workers-typescript-template/actions?query=workflow%3ATest)
+[![GitHub Actions Deploy](https://github.com/GregBrimble/cf-workers-typescript-template/workflows/Deploy/badge.svg)](https://github.com/GregBrimble/cf-workers-typescript-template/actions?query=workflow%3ADeploy)
+[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregBrimble/cf-workers-typescript-template.svg?logo=lgtm&style=plastic)](https://lgtm.com/projects/g/GregBrimble/cf-workers-typescript-template/alerts/)
+[![LGTM Code Quality](https://img.shields.io/lgtm/grade/javascript/g/GregBrimble/cf-workers-typescript-template.svg?logo=lgtm&style=plastic)](https://lgtm.com/projects/g/GregBrimble/cf-workers-typescript-template/context:javascript)
+[![Code Climate Maintainability](https://img.shields.io/codeclimate/maintainability/GregBrimble/cf-workers-typescript-template.svg?style=flat)](https://codeclimate.com/github/GregBrimble/cf-workers-typescript-template/maintainability)
+[![License](https://img.shields.io/github/license/GregBrimble/cf-workers-typescript-template?style=plastic)](https://github.com/GregBrimble/cf-workers-typescript-template/blob/master/LICENSE)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/GregBrimble/cf-workers-typescript-template.svg?logo=github&style=plastic)](https://github.com/GregBrimble/cf-workers-typescript-template)
+[![Lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=plastic)](https://lerna.js.org/)
+
 A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/) project, using [Workers Sites](https://workers.cloudflare.com/sites) ([React](https://reactjs.org/) although can be easily swapped for [Gatsby](https://www.gatsbyjs.org/) or another static builder), [TypeScript](https://www.typescriptlang.org/), [Jest](https://jestjs.io/), [Prettier](https://prettier.io/) and [Lerna](https://lerna.js.org/).
 
 ## Prerequisites
@@ -16,7 +25,9 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
    1. Click the [`Use this template`](https://github.com/GregBrimble/cf-workers-typescript-template/generate) button.
 
-   1) Add GitHub Actions secret for [`CF_API_TOKEN`](https://dash.cloudflare.com/profile/api-tokens) using `Edit Cloudflare Workers` template permissions.
+   1. Add GitHub Actions secret for [`CF_API_TOKEN`](https://dash.cloudflare.com/profile/api-tokens) using `Edit Cloudflare Workers` template permissions.
+
+   1. Enable the [Mergify](https://github.com/settings/installations/5718243), [CodeClimate](https://github.com/settings/installations/205740), [LGTM](https://github.com/settings/installations/2030503) and [Synk](https://snyk.io/) apps.
 
 1. (Optionally) Update `.nvmrc`:
 
@@ -60,7 +71,7 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
 1. (Optionally) Update npm packages: `npm run updatePackages`
 
-1. Update `README.md`
+1. Update `README.md`, (don't forget the badges!).
 
 1. Follow additional instructions in `/packages/*/README.md`
 
@@ -96,3 +107,12 @@ To start a local version:
 ---
 
 \* May not be perfect
+
+<!-- TODO
+
+* mergify
+* Synk
+* LGTM
+* etc.
+
+-->

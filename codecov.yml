@@ -1,0 +1,16 @@
+coverage:
+  status:
+    project:
+      default: off
+      client:
+        flags: client
+      server:
+        flags: server
+
+flags:
+  client:
+    paths:
+      - packages/client/
+  server:
+    paths:
+      - packages/server/
