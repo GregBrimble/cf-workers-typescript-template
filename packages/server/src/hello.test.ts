@@ -1,5 +1,9 @@
-describe("the universe", () => {
-  it("can do math", () => {
-    expect(2 + 2).toBe(4);
+import { handleHello } from "./hello";
+
+describe("hello", () => {
+  it("returns a response", async () => {
+    const response = await handleHello(undefined);
+    const text = await response.text();
+    expect(text).toEqual("Hello, world!");
   });
 });
