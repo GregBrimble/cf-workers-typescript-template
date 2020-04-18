@@ -4,12 +4,13 @@
 [![GitHub Actions Deploy](https://github.com/GregBrimble/cf-workers-typescript-template/workflows/Deploy/badge.svg)](https://github.com/GregBrimble/cf-workers-typescript-template/actions?query=workflow%3ADeploy)
 [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregBrimble/cf-workers-typescript-template.svg?logo=lgtm&style=plastic)](https://lgtm.com/projects/g/GregBrimble/cf-workers-typescript-template/alerts/)
 [![LGTM Code Quality](https://img.shields.io/lgtm/grade/javascript/g/GregBrimble/cf-workers-typescript-template.svg?logo=lgtm&style=plastic)](https://lgtm.com/projects/g/GregBrimble/cf-workers-typescript-template/context:javascript)
-[![Code Climate Maintainability](https://img.shields.io/codeclimate/maintainability/GregBrimble/cf-workers-typescript-template.svg?style=flat)](https://codeclimate.com/github/GregBrimble/cf-workers-typescript-template/maintainability)
+[![Code Climate Maintainability](https://img.shields.io/codeclimate/maintainability/GregBrimble/cf-workers-typescript-template.svg?style=plastic)](https://codeclimate.com/github/GregBrimble/cf-workers-typescript-template/maintainability)
+[![Codecov](https://img.shields.io/codecov/c/github/GregBrimble/cf-workers-typescript-template?logo=codecov&style=plastic)](https://codecov.io/gh/GregBrimble/cf-workers-typescript-template)
 [![License](https://img.shields.io/github/license/GregBrimble/cf-workers-typescript-template?style=plastic)](https://github.com/GregBrimble/cf-workers-typescript-template/blob/master/LICENSE)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/GregBrimble/cf-workers-typescript-template.svg?logo=github&style=plastic)](https://github.com/GregBrimble/cf-workers-typescript-template)
 [![Lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=plastic)](https://lerna.js.org/)
 
-A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/) project, using [Workers Sites](https://workers.cloudflare.com/sites) ([React](https://reactjs.org/) although can be easily swapped for [Gatsby](https://www.gatsbyjs.org/) or another static builder), [TypeScript](https://www.typescriptlang.org/), [Jest](https://jestjs.io/), [Prettier](https://prettier.io/) and [Lerna](https://lerna.js.org/).
+A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/) project, using [Workers Sites](https://workers.cloudflare.com/sites) ([React](https://reactjs.org/) although can be easily swapped for [Gatsby](https://www.gatsbyjs.org/) or another static builder), [TypeScript](https://www.typescriptlang.org/), [Jest](https://jestjs.io/) and [Prettier](https://prettier.io/).
 
 ## Prerequisites
 
