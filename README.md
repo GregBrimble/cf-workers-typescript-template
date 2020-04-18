@@ -28,7 +28,7 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
    1. Add GitHub Actions secret for [`CF_API_TOKEN`](https://dash.cloudflare.com/profile/api-tokens) using `Edit Cloudflare Workers` template permissions.
 
-   1. Enable the [Mergify](https://github.com/settings/installations/5718243), [CodeClimate](https://github.com/settings/installations/205740), [LGTM](https://github.com/settings/installations/2030503) and [Synk](https://snyk.io/) apps.
+   1. Enable the [Mergify](https://github.com/settings/installations/5718243), [CodeClimate](https://github.com/settings/installations/205740), [Codecov](https://github.com/settings/installations/655980), [LGTM](https://github.com/settings/installations/2030503), and [Synk](https://snyk.io/) apps.
 
 1. (Optionally) Update `.nvmrc`:
 
