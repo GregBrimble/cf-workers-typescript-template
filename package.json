@@ -1,0 +1,50 @@
+{
+  "name": "script-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "prebuild": "lerna run --scope client build",
+    "build": "wrangler build",
+    "clean:node": "rimraf node_modules package-lock.json",
+    "test:client": "CI=true lerna run --scope client test",
+    "test:server": "CI=true lerna run --scope server test",
+    "test": "CI=true lerna run test",
+    "lint": "prettier -c .",
+    "lint:fix": "npm run lint -- --write",
+    "start": "lerna run start --parallel",
+    "predeploy": "npm run prebuild",
+    "deploy": "wrangler publish",
+    "updatePackages": "node updatePackages.js && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GregBrimble/repositoryname.git"
+  },
+  "author": {
+    "name": "Greg Brimble",
+    "email": "developer@gregbrimble.com",
+    "url": "https://gregbrimble.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregBrimble/repositoryname/issues"
+  },
+  "homepage": "https://github.com/GregBrimble/repositoryname#readme",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.8.4",
+    "husky": "^4.2.5",
+    "lerna": "3.20.2",
+    "npm-check-updates": "^4.1.2",
+    "prettier": "^2.0.4",
+    "rimraf": "3.0.2",
+    "ts-loader": "^7.0.0",
+    "typescript": "3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint || (npm run lint:fix && npm run lint)",
+      "pre-push": "npm test"
+    }
+  }
+}

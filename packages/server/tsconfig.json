@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "lib": ["esnext", "webworker"]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./node_modules/@cloudflare/workers-types/index.d.ts"
+  ],
+  "typeAcquisition": {
+    "include": ["jest"]
+  },
+  "exclude": ["node_modules/"]
+}
