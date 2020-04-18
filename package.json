@@ -12,7 +12,10 @@
     "test": "CI=true lerna run test",
     "lint": "prettier -c .",
     "lint:fix": "npm run lint -- --write",
-    "start": "lerna run start --parallel",
+    "start": "node index.js",
+    "start:client": "CI=true lerna run --scope client --stream start",
+    "start:worker": "wrangler dev",
+    "start:tunnel": "cloudflared tunnel --url localhost:3000 --metrics localhost:8081",
     "predeploy": "npm run prebuild",
     "deploy": "wrangler publish",
     "updatePackages": "node updatePackages.js && npm i"
