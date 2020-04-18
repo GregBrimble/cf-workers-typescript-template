@@ -1,4 +1,5 @@
 const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   entry: path.join(__dirname, "src", "index.ts"),
@@ -28,4 +29,5 @@ module.exports = {
       },
     ],
   },
+  plugins: [new webpack.EnvironmentPlugin("CLOUDFLARED_TUNNEL")],
 };
