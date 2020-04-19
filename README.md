@@ -43,7 +43,7 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
       ```toml
       kv-namespaces = [
-      	 { binding = "NAMESPACENAME", id = "86bbce2f10524d33a5f26517e8dee123" }
+        { binding = "NAMESPACENAME", id = "86bbce2f10524d33a5f26517e8dee123" }
       ]
       ```
 
@@ -108,12 +108,3 @@ To start a local version:
 ---
 
 \* May not be perfect
-
-<!-- TODO
-
-* mergify
-* Synk
-* LGTM
-* etc.
-
--->
