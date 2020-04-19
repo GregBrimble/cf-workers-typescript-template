@@ -37,7 +37,7 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
 1. Update `wrangler.toml`:
 
-   1. `sed 's/script-name/my-new-worker-name/g' wrangler.toml`
+   1. Replace `script-name` and `script-name-dev` with `new-script-name` and `new-script-name-dev` respectively.
 
    1. Add KV Namespaces. For example:
 
@@ -54,9 +54,9 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
 1. Update `package.json`:
 
-   1. `sed 's/script-name/my-new-worker-name/g' package.json`
+   1. Replace `script-name` with `new-script-name`.
 
-   1. `sed 's/repositoryname/newrepositoryname/g' package.json`
+   1. Replace `repositoryname` with `newrepositoryname`.
 
    1. Update GitHub account name in the following locations:
 
