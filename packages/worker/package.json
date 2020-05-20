@@ -15,6 +15,6 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@cloudflare/kv-asset-handler": "0.0.9"
+    "@cloudflare/kv-asset-handler": "0.0.10"
   }
 }
