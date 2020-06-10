@@ -3,3 +3,4 @@
 /packages/server/coverage
 /packages/worker/build
 /packages/worker/worker
+/**/package-lock.json
