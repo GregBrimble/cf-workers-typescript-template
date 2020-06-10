@@ -1,7 +1,7 @@
 const ncu = require("npm-check-updates");
 
 const packageFiles = [
-  "packge.json",
+  "package.json",
   "packages/client/package.json",
   "packages/server/package.json",
   "packages/worker/package.json",

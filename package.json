@@ -35,15 +35,15 @@
   },
   "homepage": "https://github.com/GregBrimble/repositoryname#readme",
   "devDependencies": {
-    "@cloudflare/wrangler": "^1.8.4",
-    "cross-fetch": "^3.0.4",
-    "husky": "^4.2.5",
-    "lerna": "3.20.2",
-    "npm-check-updates": "^4.1.2",
-    "prettier": "^2.0.4",
+    "@cloudflare/wrangler": "1.9.2",
+    "cross-fetch": "3.0.4",
+    "husky": "4.2.5",
+    "lerna": "3.22.1",
+    "npm-check-updates": "7.0.0",
+    "prettier": "2.0.5",
     "rimraf": "3.0.2",
-    "ts-loader": "^7.0.0",
-    "typescript": "3.8.3"
+    "ts-loader": "7.0.5",
+    "typescript": "3.9.5"
   },
   "husky": {
     "hooks": {
