@@ -8,11 +8,11 @@
     "test:ci": "jest --ci"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "1.0.9",
-    "@types/jest": "26.0.0",
-    "jest": "26.0.1",
+    "@cloudflare/workers-types": "2.0.0",
+    "@types/jest": "26.0.9",
+    "jest": "26.4.0",
     "rimraf": "3.0.2",
-    "ts-jest": "26.1.0"
+    "ts-jest": "26.2.0"
   },
   "dependencies": {}
 }
