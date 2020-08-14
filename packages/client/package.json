@@ -13,7 +13,8 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.3",
-    "typescript": "3.9.7"
+    "typescript": "3.9.7",
+    "snyk": "^1.374.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,7 +23,9 @@
     "test:ci": "npm run test -- --coverage",
     "eject": "react-scripts eject",
     "lint": "prettier -c .",
-    "lint:fix": "npm run lint -- --write"
+    "lint:fix": "npm run lint -- --write",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +44,6 @@
   },
   "devDependencies": {
     "prettier": "2.0.5"
-  }
+  },
+  "snyk": true
 }
