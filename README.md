@@ -22,6 +22,8 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
 ## Getting Started
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?paid=true)](https://deploy.workers.cloudflare.com/?url=https://github.com/GregBrimble/cf-workers-typescript-template&paid=true)
+
 1. Fork repository:
 
    1. Click the [`Use this template`](https://github.com/GregBrimble/cf-workers-typescript-template/generate) button.
