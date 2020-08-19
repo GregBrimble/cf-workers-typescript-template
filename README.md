@@ -22,13 +22,19 @@ A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/)
 
 ## Getting Started
 
+### Automatic
+
+Click [the button below](<(https://deploy.workers.cloudflare.com/?url=https://github.com/GregBrimble/cf-workers-typescript-template&paid=true)>) and follow the setup instructions.
+
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button?paid=true)](https://deploy.workers.cloudflare.com/?url=https://github.com/GregBrimble/cf-workers-typescript-template&paid=true)
+
+### Manual
 
 1. Fork repository:
 
    1. Click the [`Use this template`](https://github.com/GregBrimble/cf-workers-typescript-template/generate) button.
 
-   1. Add GitHub Actions secret for [`CF_API_TOKEN`](https://dash.cloudflare.com/profile/api-tokens) using `Edit Cloudflare Workers` template permissions.
+   1. Add GitHub Actions secret for [`CF_ACCOUNT_ID`](https://dash.cloudflare.com/?to=/:account/workers) and [`CF_API_TOKEN`](https://dash.cloudflare.com/profile/api-tokens) using `Edit Cloudflare Workers` template permissions.
 
    1. Enable the [CodeClimate](https://github.com/settings/installations/205740), [Codecov](https://github.com/settings/installations/655980), [LGTM](https://github.com/settings/installations/2030503), and [Synk](https://snyk.io/) apps.
 
