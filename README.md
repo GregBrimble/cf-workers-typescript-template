@@ -98,6 +98,7 @@ These should all be self-explanatory:
 
   - `npm run test:client`
   - `npm run test:server`
+  - `npm run test:e2e`
 
 - `npm run deploy`
 
