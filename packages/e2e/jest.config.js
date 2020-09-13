@@ -1,7 +1,7 @@
 module.exports = {
   preset: "jest-playwright-preset",
   transform: {
-    '^.+\\.ts$': 'ts-jest',
+    "^.+\\.ts$": "ts-jest",
   },
   setupFilesAfterEnv: ["expect-playwright"],
   // testEnvironment: "node",

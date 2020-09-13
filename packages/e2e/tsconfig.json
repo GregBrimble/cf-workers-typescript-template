@@ -4,10 +4,8 @@
     "module": "commonjs",
     "experimentalDecorators": true,
     "lib": ["esnext", "webworker"],
-    "types": ["jest", "jest-playwright-preset", "expect-playwright"],
+    "types": ["jest", "jest-playwright-preset", "expect-playwright"]
   },
-  "include": [
-    "./__tests__/**/*.ts"
-  ],
+  "include": ["./__tests__/**/*.ts"],
   "exclude": ["node_modules/"]
 }
