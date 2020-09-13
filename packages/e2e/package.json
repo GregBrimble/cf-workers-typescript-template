@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "clean:node": "rimraf node_modules package-lock.json",
+    "pretest": "cd ../.. && npm run prebuild",
     "test": "jest --watch --coverage=false",
+    "pretest:ci": "npm run pretest",
     "test:ci": "jest --ci"
   },
   "devDependencies": {
