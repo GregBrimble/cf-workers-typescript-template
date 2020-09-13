@@ -16,5 +16,8 @@ jobs:
         run: npm run lint
       - name: Test
         run: npm run test
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       - name: Upload Coverage Report
         uses: codecov/codecov-action@v1.0.6
