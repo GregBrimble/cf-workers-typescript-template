@@ -12,6 +12,8 @@
 
 A perfect\* template for a [Cloudflare Workers](https://workers.cloudflare.com/) project, using [Workers Sites](https://workers.cloudflare.com/sites) ([React](https://reactjs.org/) although can be easily swapped for [Gatsby](https://www.gatsbyjs.org/) or another static builder), [TypeScript](https://www.typescriptlang.org/), [Jest](https://jestjs.io/) and [Prettier](https://prettier.io/).
 
+**And now, with end-to-end tests thanks to the new [`wrangler dev`](https://github.com/cloudflare/wrangler#-dev) command and [Playwright](https://playwright.dev/)! ✨**
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
@@ -112,6 +114,8 @@ To start a local version:
 - `/packages/server` an function which intercepts a request to the client. If it returns a 404, the request is passed through to the client.
 
 - `/packages/worker` attempts to fetch from the server first, falling back on the client.
+
+- `/packages/e2e` runs end-to-end tests on the full-stack Worker.
 
 ---
 

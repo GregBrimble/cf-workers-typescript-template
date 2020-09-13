@@ -1,5 +1,4 @@
-import {} from "@cloudflare/workers-types";
-import { Router } from "./lib/router";
+import { Router } from "@glenstack/cf-workers-router";
 import { handleHello } from "./hello";
 
 const router = new Router();

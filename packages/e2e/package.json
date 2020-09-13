@@ -1,20 +1,20 @@
 {
-  "name": "server",
+  "name": "e2e",
   "private": true,
-  "main": "src/index.ts",
   "scripts": {
     "clean:node": "rimraf node_modules package-lock.json",
-    "test": "jest --watch --coverage=false --changedSince=origin/master",
+    "test": "jest --watch --coverage=false",
     "test:ci": "jest --ci"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "2.0.0",
     "@types/jest": "26.0.13",
+    "expect-playwright": "0.2.5",
     "jest": "26.4.2",
+    "jest-playwright-preset": "1.3.1",
+    "playwright": "1.4.0",
     "rimraf": "3.0.2",
     "ts-jest": "26.3.0"
   },
-  "dependencies": {
-    "@glenstack/cf-workers-router": "1.0.0"
-  }
+  "dependencies": {}
 }
