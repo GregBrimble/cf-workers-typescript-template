@@ -29,5 +29,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [new webpack.EnvironmentPlugin("CLOUDFLARED_TUNNEL")],
+  plugins: [new webpack.EnvironmentPlugin({ CLOUDFLARED_TUNNEL: "" })],
 };
