@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/GregBrimble/repositoryname#readme",
   "devDependencies": {
-    "@cloudflare/wrangler": "1.11.0",
+    "@cloudflare/wrangler": "1.12.2",
     "cross-fetch": "3.0.6",
     "husky": "4.3.0",
     "lerna": "3.22.1",
