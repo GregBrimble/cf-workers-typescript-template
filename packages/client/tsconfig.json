@@ -14,7 +14,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    // https://github.com/facebook/create-react-app/issues/9429#issuecomment-674994709
     "noFallthroughCasesInSwitch": false
   },
   "include": ["src"]
