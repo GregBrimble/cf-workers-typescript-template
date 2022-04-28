@@ -37,7 +37,7 @@
   "homepage": "https://github.com/GregBrimble/repositoryname#readme",
   "devDependencies": {
     "@cloudflare/wrangler": "1.12.3",
-    "cross-fetch": "3.0.6",
+    "cross-fetch": "3.1.5",
     "husky": "4.3.7",
     "lerna": "3.22.1",
     "npm-check-updates": "10.2.5",
