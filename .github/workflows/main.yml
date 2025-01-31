@@ -1,0 +1,26 @@
+            - name: Azure Resource Manager (ARM) Template Deployment JS
+  # You may pin to the exact commit or the version.
+  # uses: whiteducksoftware/azure-arm-action-js@1c3fe33cf7644e7d511eea0be56533cac16b1388
+  uses: whiteducksoftware/azure-arm-action-js@v4.1
+  with:
+    # Provide the scope of the deployment. alid values are: 'resourcegroup', 'managementgroup', 'subscription'
+    scope: 
+    # Provide the Id of the subscription which should be used.
+    subscriptionId: 
+    # Provide the target region, only required for management Group or Subscription deployments.
+    location: # optional
+    # Provide the name of a resource group.
+    resourceGroupName: # optional
+    # Specify the path or URL to the Azure Resource Manager template.
+    templateLocation: 
+    # Incremental (only add resources to resource group) or Complete (remove extra resources from resource group).
+    deploymentMode: # optional, default is Incremental
+    # Specifies the name of the resource group deployment to create.
+    deploymentName: # optional
+    # Supply deployment parameter values.
+    parameters: # optional
+    # Specify the Id for the Management Group, only required for Management Group Deployments.
+    managementGroupId: # optional
+    # Whenether the template should only be validated or also deployed. Valid values are: 'true', 'false'
+    validationOnly: # optional
+          
